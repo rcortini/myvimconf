@@ -23,3 +23,6 @@ let mapleader=","
 
 " for Pathogen
 execute pathogen#infect()
+
+" for vim-airline to work before the first 'split' event
+set laststatus=2
