@@ -31,6 +31,6 @@ set laststatus=2
 nnoremap <leader>h :tabprevious<CR>
 nnoremap <leader>l :tabnext<CR>
 nnoremap <leader>t :tabnew<CR>
-inoremap <leader>h <Esc>:tabprevious<CR>i
-inoremap <leader>l <Esc>:tabnext<CR>i
-inoremap <leader>t <Esc>:tabnew<CR>i
+
+" I don't want Airline to bother me about trailing whitespace
+autocmd VimEnter * AirlineToggleWhitespace
