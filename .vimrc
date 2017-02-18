@@ -19,7 +19,7 @@ set shiftwidth=2
 set tabpagemax=100
 
 " my leader key mapping
-let mapleader=","
+let mapleader="\<Space>"
 
 " for Pathogen
 execute pathogen#infect()
