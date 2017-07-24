@@ -34,3 +34,6 @@ nnoremap <leader>t :tabnew<CR>
 
 " I don't want Airline to bother me about trailing whitespace
 autocmd VimEnter * AirlineToggleWhitespace
+
+" 80 characters line
+set tw=80
