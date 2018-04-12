@@ -37,3 +37,7 @@ autocmd VimEnter * AirlineToggleWhitespace
 
 " 80 characters line
 set tw=80
+
+" remap the Leader key to resize windows
+nnoremap <silent> <Leader>+ :exe "resize " . (winheight(0) * 3/2)<CR>
+nnoremap <silent> <Leader>- :exe "resize " . (winheight(0) * 2/3)<CR>
